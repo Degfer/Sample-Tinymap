@@ -1,0 +1,31 @@
+/* GLOBAL CSS FILE */
+
+
+/* Global */
+
+/* Class */
+
+    /* Title */
+.title {
+    color: white;
+    text-align: center;
+    background: #360570;
+}
+
+    /* Footer */
+.footer {
+    text-align: center;
+}
+
+.footer-i {
+    text-align: center;
+}
+
+.icon1 {
+    font-size: 50px;
+    color: #2160ff;
+}
+
+.icon1:hover  {
+    color: #1843ad;
+}

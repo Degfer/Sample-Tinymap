@@ -1,0 +1,89 @@
+
+/* Global */
+
+.body {
+    background: #360570;
+}
+
+/* Class */
+
+    /* Title Name Story */
+.title-name {
+    text-align: center;
+    background: #560EAD;
+    height: 130px;
+}
+
+.butttitnam-span {
+    float: left; 
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.name-t-st {
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+}
+
+.butttitnam {
+    width: 60px;
+    height: 30px;
+}
+
+.butttitnam-iconret {
+    font-size: 50px;
+    display: inline-block;
+}
+
+    /* Map */
+
+.map {
+    text-align: center;
+    background: turquoise;
+    height: 300px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 15px;
+}
+
+.name-map {
+    font-size: 40px;
+    color: white;
+}
+
+    /*  Box Podcast */
+
+.podcast {
+    text-align: center;
+    background: #282c34;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 80px;
+}
+
+.podcast-icon {
+    font-size: 40px;
+    color: white;
+}
+
+    /* Box Task */
+
+.task {
+    text-align: center;
+    background: #fee08a;
+    height: 400px;
+}
+
+.name-task {
+    font-size: 40px;
+    color: white;
+}
+
+.icon-ok-t {
+    font-size: 40px;
+}
+
+.butt-box-task {
+    margin-bottom: 10px;
+}

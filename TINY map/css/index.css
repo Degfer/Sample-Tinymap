@@ -1,0 +1,179 @@
+/* Global */
+
+.body {
+    background: #360570;
+}
+
+/* Class */
+    
+    /* Tabs */ 
+
+.tab {
+    text-align: center;
+    /* background: #360570; */
+    background: #44058f;
+    height: 70px;
+}
+
+/*.act-is {
+    color: #5f2a75;
+} */
+
+.icon-tab {
+    font-size: 25px;
+}   
+
+.butttab {
+    width: 60px;
+    height: 40px;
+}
+
+
+    /* Search
+
+.search {
+    color: white;
+} 
+
+.form {
+    background: #512882;
+}
+
+.input:focus {
+    border-color: #360570;
+} */
+
+    /* Img-pod */
+.img-pod {
+    text-align: center;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    color: white;
+    /* background: #f44336; */
+    background: #4e2183;
+
+    height: 30%;
+
+    border-radius: 40px;
+}
+
+.txt-title-1-p {
+    font-size: 40px;
+    border-radius: 5px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.txt-desc-2-p {
+    margin-top: 20%;
+    background: #4e2183;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 1rem 1.5rem;
+}
+
+/* .photo-p {
+    height: 400px;
+} */
+
+/* .butt-div-p {
+    margin-top: 20%;
+}
+
+.butdivp {
+    height: 60px;
+    width: 100px;
+    font-size: 30px;
+}
+
+
+.icon-butt {
+    font-size: 50px;
+} */
+
+.div-stat-txt {
+    margin-top: 20%;
+}
+
+
+.div-time-st {
+    /* background: #341558; */
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 0.5rem 0.05rem;
+}
+
+.div-rat-st {
+    /* background: #341558; */
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 0.5rem 0.05rem;
+}
+
+
+.txt-time-st {
+    font-size: 25px;
+}
+
+.txt-rat-st {
+    font-size: 25px;
+}
+
+.icon-st {
+    font-size: 40px;
+    
+}
+
+
+
+    /* Box (button)*/
+
+.butt-box-p {
+    text-align: center;
+    background: #360570;
+}   
+
+.a-butt-box-p-pl {
+    color:#f14668;
+    margin-right: 15%;
+}
+
+.a-butt-box-p-pl:focus {
+    color:#b93851;
+}
+
+.a-butt-box-p-pl:hover {
+    color:#b93851;
+}
+
+
+.a-butt-box-p-st {
+    color:#fee08a;
+    margin-left: 15%;
+}
+
+.a-butt-box-p-st:focus {
+    color:#b49e60;
+}
+
+.a-butt-box-p-st:hover {
+    color:#b49e60;
+}
+
+/* .butboxp {
+    border-radius: 20px;
+    width: 100px;
+    height: 90px;
+} */
+
+.icon-butt-box {
+    font-size: 70px;
+}

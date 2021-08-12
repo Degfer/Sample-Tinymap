@@ -1,0 +1,50 @@
+/* Global */
+
+/* Class */
+
+        /* Form */ 
+
+.form {
+    text-align: center;
+}
+
+.input:focus {
+    border-color: #512882;
+}
+
+.button {
+    background-color: #560EAD;
+}
+
+    /* Login methods */
+
+.logmet {
+    text-align: center;
+}
+
+.b1-logme {
+    height: 50px;
+    width: 90px;
+}
+
+.b2-logme {
+    height: 50px;
+    width: 90px;
+}
+
+.b3-logme {
+    height: 50px;
+    width: 90px;
+}
+
+.log-ic-googl {
+    font-size: 35px;
+}
+
+.log-ic-facebook {
+    font-size: 35px;
+}
+
+.log-ic-apple {
+    font-size: 35px;
+}
