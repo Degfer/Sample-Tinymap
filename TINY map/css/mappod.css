@@ -1,8 +1,8 @@
 
 /* Global */
 
-.body {
-    background: #360570;
+body {
+    background: rgb(43, 43, 43);
 }
 
 /* Class */
@@ -10,7 +10,7 @@
     /* Title Name Story */
 .title-name {
     text-align: center;
-    background: #560EAD;
+    background: #424242;
     height: 130px;
 }
 
@@ -39,8 +39,6 @@
     /* Map */
 
 .map {
-    text-align: center;
-    background: turquoise;
     height: 300px;
     margin-left: 3%;
     margin-right: 3%;
@@ -71,7 +69,7 @@
 
 .task {
     text-align: center;
-    background: #fee08a;
+    background: #424242;
     height: 400px;
 }
 

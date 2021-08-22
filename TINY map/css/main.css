@@ -5,27 +5,67 @@
 
 /* Class */
 
-    /* Title */
+/* Title */
 .title {
     color: white;
     text-align: center;
-    background: #360570;
+    background: #424242;
+    border-radius: 0;
 }
 
     /* Footer */
 .footer {
     text-align: center;
+    background: rgb(43, 43, 43);
 }
 
 .footer-i {
     text-align: center;
 }
 
-.icon1 {
+.icon-vk {
     font-size: 50px;
     color: #2160ff;
+    margin: auto;
 }
 
-.icon1:hover  {
+.icon-vk:hover  {
     color: #1843ad;
 }
+
+#settings-card {
+    background-color: rgb(43, 43, 43);
+    margin-top: 1rem;
+}
+
+.box {
+    background:rgb(43, 43, 43);
+    box-shadow: none;
+}
+
+.box:not(:last-child) { margin-bottom: 0; }
+
+#podcast, #map, #todo-list {
+    width: 20rem;
+    margin: auto;
+}
+
+.list-group {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#podcast-audio {
+    width: 20rem;
+    height: 40px;
+    margin: auto;
+}
+
+.check-btn {
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: -0.2rem;
+    width: 2rem; height: 2rem;
+    padding: 0;  
+}
+

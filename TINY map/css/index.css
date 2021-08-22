@@ -1,7 +1,7 @@
 /* Global */
 
 .body {
-    background: #360570;
+    background: rgb(43, 43, 43);
 }
 
 /* Class */
@@ -10,9 +10,7 @@
 
 .tab {
     text-align: center;
-    /* background: #360570; */
-    background: #44058f;
-    height: 70px;
+    background: #424242;
 }
 
 /*.act-is {
@@ -23,78 +21,38 @@
     font-size: 25px;
 }   
 
-.butttab {
+.but-tab {
     width: 60px;
     height: 40px;
 }
 
-
-    /* Search
-
-.search {
-    color: white;
-} 
-
-.form {
-    background: #512882;
-}
-
-.input:focus {
-    border-color: #360570;
-} */
-
-    /* Img-pod */
+/* Img-pod */
 .img-pod {
     text-align: center;
 
     margin-left: 5%;
     margin-right: 5%;
 
+    padding: 0.5rem;
+    
     color: white;
-    /* background: #f44336; */
-    background: #4e2183;
-
-    height: 30%;
+    background: #198754;
 
     border-radius: 40px;
 }
 
 .txt-title-1-p {
-    font-size: 40px;
+    font-size: 3vh;
+    font-weight: bold;
     border-radius: 5px;
+    padding-top: 1rem;
     margin-left: 4%;
     margin-right: 4%;
 }
 
 .txt-desc-2-p {
-    margin-top: 20%;
-    background: #4e2183;
-    border-radius: 5px;
     font-size: 20px;
     padding: 1rem 1.5rem;
-}
-
-/* .photo-p {
-    height: 400px;
-} */
-
-/* .butt-div-p {
-    margin-top: 20%;
-}
-
-.butdivp {
-    height: 60px;
-    width: 100px;
-    font-size: 30px;
-}
-
-
-.icon-butt {
-    font-size: 50px;
-} */
-
-.div-stat-txt {
-    margin-top: 20%;
 }
 
 
@@ -132,13 +90,11 @@
     
 }
 
-
-
-    /* Box (button)*/
+/* Box (button)*/
 
 .butt-box-p {
     text-align: center;
-    background: #360570;
+    border: none;
 }   
 
 .a-butt-box-p-pl {
@@ -168,12 +124,6 @@
     color:#b49e60;
 }
 
-/* .butboxp {
-    border-radius: 20px;
-    width: 100px;
-    height: 90px;
-} */
-
 .icon-butt-box {
-    font-size: 70px;
+    font-size: 50px;
 }

@@ -5,28 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- yandex maps -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=82292a78-1704-4933-89e2-93b5631450b7&lang=ru_RU" type="text/javascript"></script>
     <!-- Import Bulma -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    
     <!-- Import css -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/mappod.css">
-
     <title>TINY map</title>
 </head>
-<body class="body">
-
-    <!-- Title -->
-    <!-- <div class="box title">
-       TINY
-    </div> -->
-
+<body>
     <!-- Title Name Story-->
     <div class="box title-name">
-
         <span class="icon butttitnam-span">
-            <button class="button is-danger butttitnam" class="butt1"  onclick=" document.location='index.html' ">
+            <button class="button is-danger butttitnam" class="butt1" onclick=" document.location='index.html' ">
                 <ion-icon class="butttitnam-iconret" name="return-down-back-outline"></ion-icon>
             </button>
         </span>
@@ -34,13 +26,11 @@
     </div>
 
     <!-- Map -->
-    <div class="box map">
-        <h1 class="name-map">MAP</h1>
-    </div>
+    <div id="map" style="height: 400px; margin-bottom: 1rem;"></div>
 
     <!-- Box Podcast -->
     <div class="box podcast">
-        <ion-icon class="podcast-icon" name="musical-notes-outline"></ion-icon>
+        <audio src="../podcasts/podcast.mp3" controls></audio>
     </div>
 
     <!-- Box Task -->
@@ -53,10 +43,9 @@
                     <span class="icon is-small">
                         <ion-icon class="icon-ok-t" name="checkmark-outline"></ion-icon>
                     </span>
-                    <span>Go to Derzhinsky street, building 5</span>
+                    <span>Идти в школу №192</span>
                 </button>
             </li>
-
             <li>
                 <button class="button is-info butt-box-task">
                     <span class="icon is-small">
@@ -65,18 +54,15 @@
                     <span>Go to the street of Soviets, building 33</span>
                 </button>
             </li>
-
             <li>
-                <button onclick=" this.className='button is-success butt-box-task' " class="button is-info butt-box-task">
+                <button onclick="this.className='button is-success butt-box-task' " class="button is-info butt-box-task">
                     <span class="icon is-small">
                         <ion-icon class="icon-ok-t" name="close-outline"></ion-icon>
                     </span>
                     <span>Drive to the city "Velikie Luki"</span>
                 </button>
             </li>
-
         </ul>
-
     </div>
 
     <!-- Footer -->
@@ -92,11 +78,10 @@
         </div>
     </footer>
 
-
     <!-- JS Scripts -->
         <!-- Import ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script src="js/map.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 /* Class */
 
-        /* Form */ 
+/* Form */ 
 
 .form {
     text-align: center;
@@ -48,3 +48,14 @@
 .log-ic-apple {
     font-size: 35px;
 }
+
+.butt1 {
+    background-color: #198754;
+    color: #fff;
+}
+
+.butt2 {
+    background-color: #424242;
+    color: #fff;
+}
+
